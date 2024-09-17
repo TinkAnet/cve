@@ -8,7 +8,7 @@ See the login page.
 
 ![WPS图片(1)](https://github.com/TinkAnet/cve/assets/118334129/8a348409-d318-414f-9e80-a0cf25c01d13)
 
-Construct the file parameter /etc/' sleep${IFS}10 '.pcap, and then use base64 encryption to construct the file parameter, and successfully execute the system command
+Construct the file parameter /etc/' sleep${IFS}10 '.pcap, and then use base64 encode to construct the file parameter, and successfully execute the system command
 
 POC
 ```
