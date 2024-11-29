@@ -1,3 +1,4 @@
+CVE-2023-6054
 Tongda OA has a front-end SQL injection vulnerability
 
 version:v11.10 and below versions and v2017 version
