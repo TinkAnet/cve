@@ -1,3 +1,4 @@
+# CVE-2023-4849
 SQL injection exists in the ibos office OA. Procedure
 
 official website:http://www.ibos.com.cn/
