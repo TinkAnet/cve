@@ -1,4 +1,4 @@
-# Vulnerability Report
+# **SourceCodester Student Record Management System in C++ V1.0 - line 53 Buffer Overflow Vulnerability**
 
 ## Vulnerability Name
 
@@ -208,10 +208,6 @@ Replace fixed-size char[] arrays with dynamically allocated std::string to impro
 
 - **Discovery Date**: 2024-12-01
 - **Reproduction Completion**: 2024-12-02
-
-**Report Author**
-
-- **Name**:
 
 **Additional Notes**
 
