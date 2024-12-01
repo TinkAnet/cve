@@ -1,4 +1,4 @@
-# **SourceCodester Student Record Management System in C++ V1.0 line 53 - Buffer Overflow Vulnerability**
+# **SourceCodester Student Record Management System in C++ V1.0 line 53 - Stack-based Buffer Overflow Vulnerability**
 
 ## Vulnerability Name
 
