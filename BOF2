@@ -41,7 +41,7 @@ contact.add();
 }
 ```
 
-![image.png](SourceCodester%20Phone%20Contact%20Manager%20System%20in%20C++%201544643d864880a5a504c78bab78f866/image.png)
+
 
 ## **Vulnerability Description**
 
@@ -65,7 +65,7 @@ As a result, the invalid data is incorrectly treated as legitimate contact infor
 1. **Resulting Impact**
 - Polluted data is recorded as legitimate contact information:
 
-![image.png](SourceCodester%20Phone%20Contact%20Manager%20System%20in%20C++%201544643d864880a5a504c78bab78f866/image%201.png)
+
 
 ## **Debugging Screenshots**
 
