@@ -41,6 +41,7 @@ contact.add();
 }
 ```
 
+<img width="1244" alt="image" src="https://github.com/user-attachments/assets/24dcfbb4-ed78-4049-b612-58616be94729">
 
 
 ## **Vulnerability Description**
@@ -65,29 +66,35 @@ As a result, the invalid data is incorrectly treated as legitimate contact infor
 1. **Resulting Impact**
 - Polluted data is recorded as legitimate contact information:
 
+<img width="750" alt="image 1" src="https://github.com/user-attachments/assets/0d49071a-bdd1-48c0-aa8d-638ad514a7f9">
 
 
 ## **Debugging Screenshots**
 
 1. **Trigger Point: Residual Data in Buffer After Menu Selection**
 
-![image.png](SourceCodester%20Phone%20Contact%20Manager%20System%20in%20C++%201544643d864880a5a504c78bab78f866/image%202.png)
+<img width="1138" alt="image 2" src="https://github.com/user-attachments/assets/a32721aa-5635-4594-aad3-87576bbbaeec">
 
-![image.png](SourceCodester%20Phone%20Contact%20Manager%20System%20in%20C++%201544643d864880a5a504c78bab78f866/image%203.png)
+
+<img width="1086" alt="image 3" src="https://github.com/user-attachments/assets/7a3a0f59-321a-40f9-837f-ef167f2504b1">
+
 
 1. **Polluted Input Logic**
 
 *In ContactBook::adding(), observe vals[0] assigned with kkk*
 
-![image.png](SourceCodester%20Phone%20Contact%20Manager%20System%20in%20C++%201544643d864880a5a504c78bab78f866/image%204.png)
+<img width="1106" alt="image 4" src="https://github.com/user-attachments/assets/f113e581-5519-469d-8938-7c87ce67e673">
+
 
 1. **Stored Polluted Data**
 
 *Check the stored contact information with polluted data*
 
-![image.png](SourceCodester%20Phone%20Contact%20Manager%20System%20in%20C++%201544643d864880a5a504c78bab78f866/image%205.png)
+<img width="959" alt="image 5" src="https://github.com/user-attachments/assets/795bdab5-0552-4e82-a814-70d35bfd8b50">
 
-![image.png](SourceCodester%20Phone%20Contact%20Manager%20System%20in%20C++%201544643d864880a5a504c78bab78f866/image%206.png)
+
+<img width="1074" alt="image 6" src="https://github.com/user-attachments/assets/75b1f06a-04c5-45b6-a041-23deaa7e197d">
+
 
 ## **Impact**
 
